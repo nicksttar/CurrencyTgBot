@@ -1,4 +1,4 @@
-TOKEN_API = 'YOUR TOKEN'
+TOKEN_API = '6682408120:AAGj0bRMAY6BizOjxEM2SkzpkFPgSbI5OZU'
 
 
 wellcome_message = """
@@ -12,7 +12,7 @@ about_text = """This bot provides real-time updates on both traditional currenci
 
 Additionally, you have the freedom to discover your own pairs—simply type and send them to the bot.
 
-For instance, you can try: usd/eur"""
+For instance, you can try: usd/eur or 100 usd to eur."""
 
 currency_kb_text = """The World's Most Popular Currencies! 😄
 

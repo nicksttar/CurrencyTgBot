@@ -13,7 +13,12 @@ async def compare_handler(text: str, answer_func):
         await answer_func('Please wait...')
         await answer_func(compare(a, b))
     except Exception:
-        await answer_func('Try again')
+        try:
+            numb, val1, to, val2 = text.split()
+            await answer_func('Please wait...')
+            await answer_func(compare(val1, val2, int(numb)))
+        except Exception:
+            await answer_func('Try again')
 
 
 @router.message(F.text)

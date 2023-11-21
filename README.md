@@ -4,7 +4,7 @@ This repository contains files to create a simple currency Telegram bot using AI
 
 ## Description
 
-The bot allows users to convert between different currencies by sending the bot a message in the format "amount currency/currency". For example: "USD/EUR". The bot then queries the current exchange rate using an external API (for instance, Google Finance) and responds with the converted amount.
+The bot allows users to convert between different currencies by sending the bot a message in the format "amount currency/currency". For example: "USD/EUR" or "100 USD to EUR". The bot then queries the current exchange rate using an external API (for instance, Google Finance) and responds with the converted amount.
 
 ## Usage
 
