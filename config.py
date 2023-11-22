@@ -1,4 +1,4 @@
-TOKEN_API = '6682408120:AAGj0bRMAY6BizOjxEM2SkzpkFPgSbI5OZU'
+TOKEN_API = 'YOUR_API_KEY'
 
 
 wellcome_message = """
